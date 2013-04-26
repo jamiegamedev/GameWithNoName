@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 3</name>
+    <events>
+        <event-block sid="297">
+            <conditions>
+                <condition id="-13" name="Is between angles" sid="298" type="Boulder">
+                    <param id="0" name="First angle">0</param>
+                    <param id="1" name="Second angle">45</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+    </events>
+</c2eventsheet>

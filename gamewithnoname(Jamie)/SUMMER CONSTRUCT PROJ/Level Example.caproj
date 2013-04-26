@@ -6,7 +6,7 @@
     <author></author>
     <unique-id>zltygdjscruo</unique-id>
     <saved-with-version>12600</saved-with-version>
-    <next-sid>297</next-sid>
+    <next-sid>321</next-sid>
     <used-plugins>
         <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
@@ -896,14 +896,165 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="block" sid="302">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="304">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="303" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FireBall3" sid="305">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="306">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="307">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="100000" repeatto="0" sid="308" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.147436" y="0.127778" />
+                            <point x="0.5" y="0.00185185" />
+                            <point x="0.852564" y="0.127778" />
+                            <point x="0.987179" y="0.5" />
+                            <point x="0.5" y="0.987037" />
+                            <point x="0.0897436" y="0.922222" />
+                            <point x="0.0106838" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.147436" y="0.127778" />
+                            <point x="0.5" y="0.00185185" />
+                            <point x="0.852564" y="0.127778" />
+                            <point x="0.987179" y="0.5" />
+                            <point x="0.959402" y="0.964815" />
+                            <point x="0.5" y="0.987037" />
+                            <point x="0.198718" y="0.827778" />
+                            <point x="0.0106838" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RotatingStick3" sid="309">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="310">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="311">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="312" speed="5">
+                    <frame duration="1" hotspotX="0.0833333" hotspotY="0.52381">
+                        <image-point name="Imagepoint 1" x="0.888889" y="0.571429" />
+                        <collision-poly>
+                            <point x="0.0416667" y="0.142857" />
+                            <point x="0.5" y="0.047619" />
+                            <point x="0.958333" y="0.142857" />
+                            <point x="0.986111" y="0.47619" />
+                            <point x="0.958333" y="0.857143" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0416667" y="0.857143" />
+                            <point x="0.0138889" y="0.47619" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="RotatingStick4" sid="313">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="314">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="315">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="316" speed="5">
+                    <frame duration="1" hotspotX="0.0833333" hotspotY="0.52381">
+                        <image-point name="Imagepoint 1" x="0.888889" y="0.571429" />
+                        <collision-poly>
+                            <point x="0.0416667" y="0.142857" />
+                            <point x="0.5" y="0.047619" />
+                            <point x="0.958333" y="0.142857" />
+                            <point x="0.986111" y="0.47619" />
+                            <point x="0.958333" y="0.857143" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0416667" y="0.857143" />
+                            <point x="0.0138889" y="0.47619" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="FireBall4" sid="317">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Rotate" sid="318">
+                    <behavior id="Rotate" />
+                </behavior-type>
+                <behavior-type name="Pin" sid="319">
+                    <behavior id="Pin" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder expanded="1">
+                <animation framecount="3" loop="1" name="Default" pingpong="0" repeatcount="100000" repeatto="0" sid="320" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.147436" y="0.127778" />
+                            <point x="0.5" y="0.00185185" />
+                            <point x="0.852564" y="0.127778" />
+                            <point x="0.987179" y="0.5" />
+                            <point x="0.5" y="0.987037" />
+                            <point x="0.0897436" y="0.922222" />
+                            <point x="0.0106838" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.147436" y="0.127778" />
+                            <point x="0.5" y="0.00185185" />
+                            <point x="0.852564" y="0.127778" />
+                            <point x="0.987179" y="0.5" />
+                            <point x="0.959402" y="0.964815" />
+                            <point x="0.5" y="0.987037" />
+                            <point x="0.198718" y="0.827778" />
+                            <point x="0.0106838" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="FireballRotate" plugin-id="Sprite" sid="251">
             <members>
                 <member>FireBall</member>
                 <member>FireBall2</member>
+                <member>FireBall3</member>
+                <member>FireBall4</member>
                 <member>RotatingStick</member>
                 <member>RotatingStick2</member>
+                <member>RotatingStick3</member>
+                <member>RotatingStick4</member>
             </members>
             <behaviors>
                 <behavior-type name="Rotate2" sid="252">
@@ -928,12 +1079,15 @@
         <layout>MainLevel.xml</layout>
         <layout>Layout 1.xml</layout>
         <layout>LEVEL01.xml</layout>
+        <layout>LEVEL02.xml</layout>
     </layout-folder>
     <event-folder expanded="1">
         <event-sheet>World1EventSheet.xml</event-sheet>
         <event-sheet>Event sheet 2.xml</event-sheet>
         <event-sheet>PlayerControlEventSheet.xml</event-sheet>
         <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>Event sheet 3.xml</event-sheet>
+        <event-sheet>Event sheet 4.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Keyboard" uid="70" />
@@ -957,7 +1111,7 @@
             </properties>
         </global-instance>
     </global-instances>
-    <sounds-folder expanded="1">
+    <sounds-folder expanded="0">
         <file name="Rob_Risley_Shroom_Raider.ogg" />
     </sounds-folder>
     <music-folder expanded="1" />
